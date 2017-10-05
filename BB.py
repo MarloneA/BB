@@ -1,3 +1,12 @@
+
+'''
+z[0] reps lowerBB
+z[1] reps middleBB
+z[2] reps upperBB
+
+'''
+
+
 a =  [48.24,  49.38,  50.52]
 b =  [48.34,  49.52,  50.7]
 c =  [48.45,  49.63,  50.81]
@@ -21,7 +30,7 @@ bandwidth=[]
 
 for z in x:
 
-	bw = ((z[2] - z[0])/z[1])*100
+	bw = ((z[2] - z[0])/z[1])*100 # formulae for calculating bandwidth 
 
 	bandwidth.append(str(bw))
 
